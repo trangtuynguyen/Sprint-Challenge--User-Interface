@@ -72,6 +72,7 @@ p {
 }
 
 .top-content {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -176,9 +177,10 @@ header{
 }
 
 .container-about-page{
+    margin-top: 30px;
     display: flex;
     width: 800px;
-    height: 1200px;
+    height: 900px;
     flex-flow: row wrap;
     justify-content: space-around;
 }
@@ -193,8 +195,8 @@ header{
 }
 
 .box-around{
-    width: px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .button {
@@ -243,3 +245,38 @@ header{
       width: 800px;
       justify-content: center;
   }
+
+  #box1{
+      background-color: teal;
+  }
+
+#box2 {
+    background-color:gold;
+}
+#box3 {
+    background-color:cadetblue;
+}
+#box4 {
+    background-color:coral;
+}
+#box5 {
+    background-color:crimson;
+}
+#box6 {
+    background-color:forestgreen;
+}
+#box7 {
+    background-color:darkorchid;
+}
+#box8 {
+    background-color:hotpink;
+}
+#box9 {
+    background-color:indigo;
+}
+#box10 {
+    background-color:dodgerblue;
+}
+
+
+
