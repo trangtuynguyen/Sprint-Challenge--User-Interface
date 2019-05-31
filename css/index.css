@@ -168,29 +168,19 @@ footer nav a {
     color: black;
 }
 
-body {
-    width: 800px;
-    margin-top: 40px;
-}
-.intro{
-    display: flex;
-    width: 800px;
-    align-content: space-between;
-    padding: 20px;
-}
-
 .container-about-page{
     display: flex;
     width: 800px;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    height: 1200px;
+    flex-flow: row wrap;
+    align-content: space-around;
 }
 
 .about-box{
     display: flex;
     flex-flow: column wrap;
-    width: 420px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
 
 }
 
@@ -205,4 +195,22 @@ body {
     font-size: 12px;
     border-radius: 3px;
     width: 100px;
+  }
+
+  .intro{
+      display: flex;
+      flex-flow: column wrap;
+      align-content: space-between;
+      width: 800px;
+      height: 100px;
+
+  }
+
+  .last-p {
+      display: flex;
+      flex-flow: column wrap;
+      width: 800px;
+      justify-content: center;
+      padding: 30px;
+
   }
