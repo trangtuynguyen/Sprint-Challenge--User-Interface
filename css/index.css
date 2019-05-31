@@ -167,21 +167,34 @@ footer nav a {
     text-decoration: none;
     color: black;
 }
+header{
+    display: flex;
+    flex-flow: column;
+    width: 800px;
+    height: 600px;
+    justify-content: space-around;
+}
 
 .container-about-page{
     display: flex;
     width: 800px;
     height: 1200px;
     flex-flow: row wrap;
-    align-content: space-around;
+    justify-content: space-around;
 }
 
 .about-box{
     display: flex;
-    flex-flow: column wrap;
-    width: 300px;
+    flex-flow: column;
+    width: 370px;
     height: 400px;
+    border-block-end: 1px dashed black;
 
+}
+
+.box-around{
+    width: px;
+    height: 500px;
 }
 
 .button {
@@ -197,12 +210,18 @@ footer nav a {
     width: 100px;
   }
 
+  .button:hover{
+      color: salmon;
+  }
+
   .intro{
       display: flex;
-      flex-flow: column wrap;
+      flex-flow: column;
       align-content: space-between;
       width: 800px;
-      height: 100px;
+      height: 150px;
+      padding: 20px;
+      border-bottom: 1px dashed black;
 
   }
 
@@ -213,4 +232,14 @@ footer nav a {
       justify-content: center;
       padding: 30px;
 
+  }
+  .jumbo{
+      width: 800px;
+  }
+
+  .everything{
+      display: flex;
+      flex-flow: column;
+      width: 800px;
+      justify-content: center;
   }
