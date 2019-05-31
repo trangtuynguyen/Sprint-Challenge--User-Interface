@@ -72,6 +72,7 @@ p {
 }
 
 .top-content {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -91,6 +92,8 @@ p {
 }
 
 .middle-content h2 {
+    display: flex;
+    flex-flow: row;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -144,3 +147,137 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 75px;
+}
+
+.navigation nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 700px;
+
+}
+
+.navigation nav a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    flex-flow: column;
+    width: 800px;
+    height: 600px;
+    justify-content: space-around;
+}
+
+.container-about-page{
+    margin-top: 30px;
+    display: flex;
+    width: 800px;
+    height: 900px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-box{
+    display: flex;
+    flex-flow: column;
+    width: 370px;
+    height: 400px;
+    border-block-end: 1px dashed black;
+
+}
+
+.box-around{
+    width: 400px;
+    height: 400px;
+}
+
+.button {
+    border-top: 10px;
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color:black;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 100px;
+  }
+
+  .button:hover{
+      color: salmon;
+  }
+
+  .intro{
+      display: flex;
+      flex-flow: column;
+      align-content: space-between;
+      width: 800px;
+      height: 150px;
+      padding: 20px;
+      border-bottom: 1px dashed black;
+
+  }
+
+  .last-p {
+      display: flex;
+      flex-flow: column wrap;
+      width: 800px;
+      justify-content: center;
+      padding: 30px;
+
+  }
+  .jumbo{
+      width: 800px;
+  }
+
+  .everything{
+      display: flex;
+      flex-flow: column;
+      width: 800px;
+      align-items: center;
+  }
+
+  #box1{
+      background-color: teal;
+  }
+
+#box2 {
+    background-color:gold;
+}
+#box3 {
+    background-color:cadetblue;
+}
+#box4 {
+    background-color:coral;
+}
+#box5 {
+    background-color:crimson;
+}
+#box6 {
+    background-color:forestgreen;
+}
+#box7 {
+    background-color:darkorchid;
+}
+#box8 {
+    background-color:hotpink;
+}
+#box9 {
+    background-color:indigo;
+}
+#box10 {
+    background-color:dodgerblue;
+}
+
+
+
