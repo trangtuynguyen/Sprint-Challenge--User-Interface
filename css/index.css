@@ -200,6 +200,7 @@ header{
 }
 
 .button {
+    border-top: 10px;
     background-color: white; /* Green */
     border: 1px solid black;
     color:black;
@@ -208,7 +209,7 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    border-radius: 3px;
+    border-radius: 5px;
     width: 100px;
   }
 
@@ -243,7 +244,7 @@ header{
       display: flex;
       flex-flow: column;
       width: 800px;
-      justify-content: center;
+      align-items: center;
   }
 
   #box1{
